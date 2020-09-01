@@ -10,13 +10,13 @@ describe('for boolean type', () => {
 
     // <--start
     // Please write down the correct value. You should write the final result directly.
-    const expected = undefined;
+    const expected = [true, true, true, true, false, false, false, true];
     // --end->
 
     expect(actual).toEqual(expected);
   });
 
-  it('should not perform type conversion for strict equal operator', () => {
+  fit('should not perform type conversion for strict equal operator', () => {
     const objectLeft = { key: 'value' };
     const objectRight = { key: 'value' };
 
@@ -27,7 +27,7 @@ describe('for boolean type', () => {
 
     // <--start
     // Please write down the correct value. You should write the final result directly.
-    const expected = undefined;
+    const expected = [true, false, false, false];
     // --end->
 
     expect(actual).toEqual(expected);

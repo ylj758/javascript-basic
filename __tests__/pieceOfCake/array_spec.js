@@ -71,7 +71,7 @@ describe('for array', () => {
       `Unit ${3} for element at index ${2}`,
       `Unit ${4} for element at index ${3}`,
       `Unit ${5} for element at index ${4}`];
-    // --end->
+    //  --end->
 
     expect(mapped).toEqual(expected);
   });

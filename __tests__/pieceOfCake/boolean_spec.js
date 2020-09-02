@@ -16,7 +16,7 @@ describe('for boolean type', () => {
     expect(actual).toEqual(expected);
   });
 
-  fit('should not perform type conversion for strict equal operator', () => {
+  it('should not perform type conversion for strict equal operator', () => {
     const objectLeft = { key: 'value' };
     const objectRight = { key: 'value' };
 
